@@ -32,26 +32,32 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  float: left;
+  float: midel;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
   background: pink;
   padding: 20px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration:  underline dotted red;
+  display: inline-block;
 }
-
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+  list-style-type: circle;
+  padding: 10;
+  color:  brown ;
+  }
 
 article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #F08080	;
   height: 300px; /* only for demonstration, should be removed */
 }
+
 
 /* Clear floats after the columns */
 section::after {
@@ -62,7 +68,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: pink;
   padding: 10px;
   text-align: center;
   color: white;
@@ -73,8 +79,7 @@ footer {
   nav, article {
     width: 100%;
     height: auto;
-  }
-<!DOCTYPE html>
+  }<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -178,10 +183,23 @@ footer {
 </section>
 
 <footer>
-  <p>ADD YOUR FIRST NAME, LAST NAME, AND EMAIL HERE!</p>
+  <p>Aura Alejandra  Mercera Adans , amercera@mlvrcs.org.
 </footer>
 
 </body>
 </html>
 
 
+
+
+
+  
+
+
+
+
+
+
+
+
+    

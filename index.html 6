@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -29,7 +30,6 @@ header {
   font-size: 35px;
   color: brown ;
 }
-
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: midel;
@@ -64,7 +64,7 @@ section::after {
   content: "";
   display: table;
   clear: both;
-}
+  }
 
 /* Style the footer */
 footer {
@@ -97,7 +97,6 @@ footer {
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -130,8 +129,8 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: pink;
-  height: 300px; /* only for demonstration, should be removed */
+  background-color: #F08080;
+  height: 300px; 
 }
 
 /* Clear floats after the columns */
@@ -146,7 +145,7 @@ footer {
   background-color: #F08080;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
@@ -165,13 +164,13 @@ footer {
 <header>
   <h2>Aura Adams </h2>
 </header>
-
 <section>
   <nav>
     <ul>
-      <li><a href="#">LINK 1</a></li>
-      <li><a href="#">LINK 2</a></li>
-      <li><a href="#">LINK 3</a></li>
+      <li><a href="http://music.apple.com/us/artist/cardi-b/956078923 target="_blank"> my favorite articta</a></li>
+      
+      <li><a href="http://https://www.instagram.com/neils/">Neils </a></li>"
+      
     </ul>
   </nav>
   
@@ -189,15 +188,7 @@ footer {
 </body>
 </html>
 
-
-
-
-
   
-
-
-
-
 
 
 
